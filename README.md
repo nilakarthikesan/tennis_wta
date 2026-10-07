@@ -1,10 +1,16 @@
+# WTA tennis data fork
+
+This is a fork of [Jeff Sackmann’s WTA tennis dataset](https://github.com/JeffSackmann/tennis_wta). The dataset and original documentation are Jeff Sackmann / Tennis Abstract’s work. The original documentation and attribution license follow below.
+
+---
+
 ## WTA Tennis Rankings, Results, and Stats
 
 This repo contains my master WTA player file, historical rankings, and an extensive database of match results.
 
 The player file columns are: player_id, first_name, last_name, hand, birth_date, country_code.
 
-The columns for the ranking files are: ranking_date, ranking, player_id, ranking_points, tours. 'Tours' is WTA jargon for certain types of tournaments played, and that column is not anywhere near complete. 
+The columns for the ranking files are: ranking_date, ranking, player_id, ranking_points, tours. 'Tours' is WTA jargon for certain types of tournaments played, and that column is not anywhere near complete.
 
 Match result files (e.g. 'wta_matches_2014.csv') contain all tour-level singles matches for that season. To make them easier to use, I've included a fair bit of redundancy with the biographical and ranking files: each row contains several columns of biographical information, along with ranking and ranking points, for both players.
 
